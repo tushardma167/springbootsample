@@ -15,4 +15,9 @@ public class HelloWorldController {
     public String goodBye() {
         return "good bye spring boot";
     }
+
+    @RequestMapping("/checkGit")
+    public String checkGit() {
+        return "git from intellij is working fine";
+    }
 }
